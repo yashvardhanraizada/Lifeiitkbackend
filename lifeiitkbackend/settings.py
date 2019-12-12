@@ -60,6 +60,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "corsheaders",
     "background_task",
+    "blogs",
 ]
 
 REST_FRAMEWORK = {

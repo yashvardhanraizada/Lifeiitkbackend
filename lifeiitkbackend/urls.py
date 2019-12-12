@@ -21,5 +21,6 @@ urlpatterns = [
     path('api/users/', include('users.urls')),
     path('api/events/', include('events.urls')),
     path("api/acads/", include("acads.urls")),
-    path('api/tags/',include("tags.urls"))
+    path('api/tags/',include("tags.urls")),
+    path('api/blogs/',include("blogs.urls")),
 ]
